@@ -1,18 +1,22 @@
 {
-  "name": "paapi5-nodejs-sdk",
-  "version": "1.1.0",
-  "description": "ProductAdvertisingAPI 5.0 NodeJS SDK",
-  "main": "src/index.js",
+  "name": "paapi5-react-native-sdk",
+  "version": "1.0.2",
+  "description": "ProductAdvertisingAPI 5.0 React Native SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "author": {
     "name": "Product Advertising API",
-    "email": "",
+    "email": "doug@dougwatkinsdev.com",
     "url": "https://webservices.amazon.com/paapi5/documentation/index.html"
   },
-  "homepage": "https://github.com/wusoma/paapi5-nodejs-sdk",
+  "scripts": {
+    "build": "tsc"
+  },
+  "homepage": "https://github.com/dowatugkins/paapi5-react-native-sdk",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wusoma/paapi5-nodejs-sdk"
+    "url": "https://github.com/dowatugkins/paapi5-react-native-sdk"
   },
   "browser": {
     "fs": false
@@ -31,8 +35,5 @@
     "pa-api",
     "paapi",
     "ProductAdvertisingAPI"
-  ],
-  "_resolved": "https://registry.npmjs.org/paapi5-nodejs-sdk/-/paapi5-nodejs-sdk-1.0.1.tgz",
-  "_integrity": "sha512-mUAkbJBUTorNCxLRDzzsEL1HO9+Oh5sEArmndex81JXIzlMQLbmPjCKw6rbWXYSUJCswRKBPHf3ZqnSfZOJACg==",
-  "_from": "paapi5-nodejs-sdk@1.0.1"
+  ]
 }
